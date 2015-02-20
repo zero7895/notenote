@@ -1,1 +1,32 @@
-%h1	This is welcome placeholder
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notebook
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook application."
+		%p.name - Nate Chen
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Hi , this is a good online notebook.
+			.callout
+				%h2 Rocket
+				%p Hi , this is a good online notebook.
+			.callout
+				%h2 Light
+				%p Hi , this is a good online notebook.
+
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p I want you to sign up!!!
+		%button= link_to "Click me!" , new_user_registration_path
+
+%footer
+	%p &copy; Nate Chen
